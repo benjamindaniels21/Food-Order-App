@@ -1,10 +1,18 @@
 import React from "react";
-import PropTypes from "prop-types";
+import mealsImage from "../../assets/meals.jpg";
 
 const Header = (props) => {
-  return <div>Header</div>;
+  return (
+    <>
+      <header>
+        <h1>Food Ordering</h1>
+        <button>Cart</button>
+      </header>
+      <div>
+        <img src={mealsImage} alt="A table full of food" />
+      </div>
+    </>
+  );
 };
-
-Header.propTypes = {};
 
 export default Header;
