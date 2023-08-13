@@ -1,7 +1,16 @@
 import React from "react";
+import CartIcon from "../Cart/CartIcon";
 
-const HeaderCardButton = () => {
-  return <div>HeaderCardButton</div>;
+const HeaderCardButton = (props) => {
+  return (
+    <button>
+      <span>
+        <CartIcon />
+      </span>
+      <span></span>
+      <span></span>
+    </button>
+  );
 };
 
 export default HeaderCardButton;
