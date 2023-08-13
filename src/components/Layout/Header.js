@@ -1,10 +1,11 @@
 import React from "react";
 import mealsImage from "../../assets/meals.jpg";
+import classes from "./Header.module.css";
 
 const Header = (props) => {
   return (
     <>
-      <header>
+      <header className="">
         <h1>Food Ordering</h1>
         <button>Cart</button>
       </header>
